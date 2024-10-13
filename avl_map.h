@@ -5,11 +5,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_KEY_LENGHT 256
+#define MAX_KEY_LENGTH 256
 
 // Struct definition for a node
 typedef struct AVL {
-    char key[MAX_KEY_LENGHT];
+    char key[MAX_KEY_LENGTH];
     struct AVL* pair;
     long long ech;
     long long height;
